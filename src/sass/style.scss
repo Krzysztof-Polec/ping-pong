@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #121212;
+
+    h1{
+        display: none;
+        color: #754db8;
+        font-family: monospace;
+        font-size: 25px;
+    }
+
+
+    canvas{
+        border: 3px solid #754db8;
+    }
+}
+
+@media(max-width: 610px){
+    h1{
+        display: block !important;
+    }
+
+    canvas{
+        display: none;
+    }
+}
